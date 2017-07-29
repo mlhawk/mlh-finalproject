@@ -1,0 +1,89 @@
+
+body {
+    width: 100%
+}
+
+/*body {
+    background-color: #67A0D7
+}*/
+
+body * {
+    box-sizing: border-box;
+}
+html { 
+  background: url(images/alpsbackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#mainheader {
+    text-align: center;
+    background-color: #788AA3;
+    font-size: 1.5em;
+    border: 2px;
+    height: 15vh;
+
+}
+
+
+.mainlist {
+    /*margin-bottom:5px;*/
+    background-color: #788AA3;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.list li a{
+    text-decoration: none;
+    color: #BFB6BB;
+}
+.list li{
+    list-style-type: none;
+    color: #BFB6BB
+}
+.nav {
+  text-align: center;
+  display: flex;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+.child{
+    border: 2px #090302;
+    width: 500px;
+    background-color: #FBFBFB;
+    color: #14080E;
+    text-align: center;
+    font-family: helvetica;
+}
+
+#maincontent{
+    overflow-y: scroll;
+    height: 85vh;
+}
+
+.gallery_links{
+    display: flex;
+    flex-wrap: wrap;
+    Border: 2px #090302;
+    width: 500px;
+    overflow-y: scroll;
+    height: 85vh;
+}
+
+.gallery_links div img {
+    width: 100%;
+}
+
+#supercontent {
+    display: flex;
+    justify-content: space-between;
+}
